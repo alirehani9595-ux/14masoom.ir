@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دبیرستان چهارده معصوم | برنامه‌های اجراشده</title>
+  <meta name="description" content="گزارش برنامه‌های اجراشده و فعالیت‌های آموزشی، فرهنگی و ورزشی دبیرستان چهارده معصوم">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════ هدر و منو ═══════════ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <span class="brand-icon">🏫</span>
+        <span class="brand-text">
+          <strong>دبیرستان چهارده معصوم</strong>
+          <small>سایت رسمی مدرسه</small>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">خانه</a>
+        <a href="#programs">برنامه‌ها</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس با ما</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="باز و بسته کردن منو">☰</button>
+    </div>
+  </header>
+
+  <!-- ═══════════ بخش معرفی (هیرو) ═══════════ -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <span class="hero-badge">✨ گزارش عملکرد دبیرستان چهارده معصوم</span>
+      <h2>برنامه‌های اجراشده و فعالیت‌های آموزشی مدرسه چهارده معصوم</h2>
+      <p>
+        در این صفحه آخرین برنامه‌های آموزشی، علمی، فرهنگی، ورزشی و اردوهای
+        دبیرستان چهارده معصوم را همراه با گزارش و تصاویر ببینید.
+      </p>
+      <div class="hero-actions">
+        <a href="#programs" class="btn btn-primary">مشاهده برنامه‌ها</a>
+        <a href="#contact" class="btn btn-ghost">تماس با ما</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong id="statPrograms">۰</strong><span>برنامه اجراشده</span></div>
+        <div class="stat"><strong id="statCategories">۰</strong><span>حوزه فعالیت</span></div>
+        <div class="stat"><strong>۱۴۰۴</strong><span>سال تحصیلی</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ═══════════ برنامه‌های اجراشده ═══════════ -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">آرشیو فعالیت‌ها</span>
+          <h3>برنامه‌های اجراشده</h3>
+          <p>برنامه‌ها را بر اساس موضوع جست‌وجو و فیلتر کنید.</p>
+        </div>
+
+        <div class="toolbar">
+          <div class="filters" id="filters">
+            <!-- دکمه‌های فیلتر به‌صورت خودکار ساخته می‌شوند -->
+          </div>
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="جست‌وجوی برنامه...">
+            <span>🔍</span>
+          </div>
+        </div>
+
+        <div class="result-count" id="resultCount"></div>
+
+        <div class="cards-grid" id="cardsGrid">
+          <!-- کارت برنامه‌ها توسط script.js ساخته می‌شوند -->
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span>📭</span>
+          <h4>برنامه‌ای یافت نشد</h4>
+          <p>عبارت دیگری را جست‌وجو کنید یا فیلتر را تغییر دهید.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ درباره ما ═══════════ -->
+    <section class="section section-alt" id="about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <span class="section-kicker">درباره ما</span>
+          <h3>دبیرستان چهارده معصوم در یک نگاه</h3>
+          <p>
+            <!-- متن معرفی مدرسه خود را اینجا بنویسید -->
+            دبیرستان چهارده معصوم با هدف پرورش دانش‌آموزانی خلاق، مسئولیت‌پذیر و علاقه‌مند به یادگیری،
+            در کنار آموزش درسی، برنامه‌های متنوع علمی، فرهنگی، هنری و ورزشی برگزار می‌کند.
+            گزارش تمامی این برنامه‌ها در همین سایت منتشر می‌شود تا اولیا با فعالیت‌های
+            فرزندان خود بیشتر آشنا شوند.
+          </p>
+          <ul class="about-list">
+            <li>✅ گروه‌های آموزشی فعال و دبیران مجرب</li>
+            <li>✅ کارگاه‌های مهارت‌افزایی و مشاوره تحصیلی</li>
+            <li>✅ اردوهای علمی و بازدیدهای میدانی</li>
+            <li>✅ جشنواره‌ها و مسابقات درون‌مدرسه‌ای</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <span class="about-emoji">🎓</span>
+          <h4>چرا این سایت؟</h4>
+          <p>
+            اطلاع‌رسانی شفاف به اولیا و مستندسازی فعالیت‌های دبیرستان چهارده معصوم،
+            بخشی از تعهد ما به کیفیت آموزش است.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ تماس با ما ═══════════ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">در تماس باشیم</span>
+          <h3>تماس با ما</h3>
+          <p>برای هماهنگی بازدید یا هر پرسشی با ما در ارتباط باشید.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item"><span>📍</span><div><strong>آدرس</strong><p>شهر ....، خیابان ....، دبیرستان چهارده معصوم</p></div></div>
+          <div class="contact-item"><span>📞</span><div><strong>تلفن</strong><p>۰۲۱-۰۰۰۰۰۰۰۰</p></div></div>
+          <div class="contact-item"><span>✉️</span><div><strong>ایمیل</strong><p>info@14masoom.ir</p></div></div>
+          <div class="contact-item"><span>🕗</span><div><strong>ساعات کاری</strong><p>شنبه تا چهارشنبه، ۷:۳۰ تا ۱۴</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ پاورقی ═══════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> دبیرستان چهارده معصوم — تمامی حقوق محفوظ است.</p>
+      <nav class="footer-nav">
+        <a href="#home">خانه</a>
+        <a href="#programs">برنامه‌ها</a>
+        <a href="#about">درباره ما</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ═══════════ پنجره جزئیات برنامه ═══════════ -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="بستن">✕</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-body">
+        <div class="modal-meta">
+          <span class="badge" id="modalCategory"></span>
+          <time id="modalDate"></time>
+        </div>
+        <h3 id="modalTitle"></h3>
+        <div id="modalDescription"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
